@@ -1,0 +1,40 @@
+.card .p1 {
+  font-size: 20px;
+  font-weight: bolder;
+  text-decoration: underline;
+  text-decoration-color: brown;
+  color: cyan;
+}
+.postcard .imc {
+  border: 5px solid red;
+  border-radius: 10px;
+  box-shadow: 6px 6px 15px black;
+}
+#figcaption1 {
+  font-size: 20px;
+  color: darkgreen;
+}
+
+#figcaption2 {
+  font-size: 20px;
+  color: darkgreen;
+}
+.homepage_link .x .y {
+  list-style-image: linear-gradient(90deg, yellow, orange);
+}
+.homepage_link .x .y .z {
+  text-decoration: none;
+  color: lightseagreen;
+  font-style: italic;
+  font-size: 20px;
+  font-weight: bolder;
+  text-shadow: 6px 6px 10px black;
+}
+.homepage_link .x {
+  display: grid;
+  grid-gap: 25px 5px;
+  justify-items: center;
+}
+a {
+  cursor: pointer;
+}

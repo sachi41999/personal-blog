@@ -1,0 +1,56 @@
+@import "first.css";
+@import "second.css";
+@import "third.css";
+.social_media {
+  display: flex;
+  justify-content: center;
+}
+.social_media .fu {
+  padding: 1em;
+  border: 1px solid white;
+  border-radius: 60px;
+  margin: 1%;
+  box-shadow: 2px 2px 12px 2px black;
+}
+.social_media .fu .fa {
+  font-size: 30px;
+}
+.social-menu .hf {
+  text-transform: capitalize;
+  font-weight: bolder;
+  text-align: center;
+  text-shadow: 6px 6px 6px rgb(20, 19, 19);
+  color: dimgrey;
+}
+.social_media .facebook:hover .fa-facebook {
+  color: aliceblue;
+  transform: scale(1.5);
+  transition: all 0.9s;
+}
+.social_media .facebook:hover {
+  background-color: blue;
+  transform: scale(1.5);
+  transition: all 0.9s;
+}
+.social_media .instagram:hover .fa-instagram {
+  color: aliceblue;
+  transform: scale(1.5);
+  transition: all 0.9s;
+}
+.social_media .instagram:hover {
+  background-color: red;
+  transform: scale(1.5);
+  transition: all 0.9s;
+}
+.social_media .linkdin:hover .fa-linkedin {
+  color: aliceblue;
+  transform: scale(1.5);
+  transition: all 0.9s;
+}
+.social_media .linkdin:hover {
+  background-color: royalblue;
+  transform: scale(1.5);
+  transition: all 0.9s;
+}
+@media (max-width: 370px) {
+}

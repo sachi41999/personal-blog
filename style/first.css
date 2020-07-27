@@ -1,0 +1,103 @@
+body {
+  overflow-x: hidden;
+}
+#heading {
+  display: flex;
+  justify-content: center;
+  transform: skewX(24deg);
+}
+
+#sub-heading {
+  box-sizing: content-box;
+  width: 30vw;
+  height: 4vw;
+  border: 5px solid red;
+  border-radius: 30px;
+  box-shadow: 5px 6px 19px grey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#sub-heading .hb {
+  text-transform: capitalize;
+  font-size: 3.9vw;
+  color: aqua;
+}
+.author_info .hc {
+  display: grid;
+  color: chocolate;
+}
+.author_info .hc {
+  font-size: 24px;
+  font-weight: bolder;
+}
+.figcapt {
+  display: flex;
+  justify-content: center;
+}
+.avatar .im {
+  display: grid;
+  justify-items: center;
+  width: 70%;
+}
+.fg {
+  box-sizing: border-box;
+  max-width: 100%;
+  height: auto;
+  border: 1px whitesmoke;
+  box-shadow: 2px 2px 18px black;
+}
+
+.blog_postcard {
+  display: flex;
+  flex-wrap: wrap;
+}
+.postcard .imc {
+  max-width: 100%;
+  height: auto;
+}
+
+.postcard {
+  background: yellow;
+  padding: 0.5em;
+  width: calc(100% / 3);
+  border: 1px solid red;
+}
+@media (max-width: 720px) {
+  .postcard {
+    width: calc(100% / 2);
+  }
+  #sub-heading {
+    width: 40vw;
+    height: 5.6vw;
+  }
+  #sub-heading .hb {
+    font-size: 4.9vw;
+  }
+}
+@media (max-width: 450px) {
+  .postcard {
+    width: calc(100% / 1);
+  }
+  #sub-heading {
+    width: 55vw;
+    height: 7vw;
+  }
+  #sub-heading h2 {
+    font-size: 7vw;
+  }
+  .navbar .a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0em;
+  }
+  .navbar .a .b {
+    padding: 0.5em;
+  }
+  .btn {
+    float: left;
+    float: inline-start;
+  }
+}
